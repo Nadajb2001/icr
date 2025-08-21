@@ -41,7 +41,7 @@ export default function App() {
         <Route path="/add-expense" element={<AddExpense />} />
         <Route path="/edit-expense/:id" element={<EditExpense />} />
         <Route path="/add-incentive" element={<AddIncentive />} />
-        <Route path="/edit-incentive/:id" element={<EditIncentive />} />
+        {/* <Route path="/edit-incentive/:id" element={<EditIncentive />} /> */}
         
       </Routes>
     </div>
